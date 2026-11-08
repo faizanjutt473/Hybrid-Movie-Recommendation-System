@@ -1,0 +1,52 @@
+=== Existing user 405 (589 train ratings) ===
+Highest rated movies in history: Scream (1996); Wizard of Oz, The (1939); Raiders of the Lost Ark (1981); Shawshank Redemption, The (1994); Godfather: Part II, The (1974)
+Hybrid recommendations:
+  1. Die Hard (1988)
+  2. Casablanca (1942)
+  3. Fish Called Wanda, A (1988)
+  4. It's a Wonderful Life (1946)
+  5. Benny & Joon (1993)
+  6. Pretty Woman (1990)
+  7. Monty Python's Life of Brian (1979)
+  8. Abyss, The (1989)
+  9. Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1963)
+  10. Citizen Kane (1941)
+
+=== New user: no history, no preferences ===
+Strategy: popularity
+  1. Star Wars (1977)
+  2. Fargo (1996)
+  3. Contact (1997)
+  4. Return of the Jedi (1983)
+  5. English Patient, The (1996)
+  6. Liar Liar (1997)
+  7. Scream (1996)
+  8. Toy Story (1995)
+  9. Air Force One (1997)
+  10. Independence Day (ID4) (1996)
+
+=== New user: onboarding genres ['Action', 'Sci-Fi'] ===
+Strategy: genre onboarding + popularity
+  1. Fifth Element, The (1997)
+  2. Contact (1997)
+  3. Star Trek: First Contact (1996)
+  4. Independence Day (ID4) (1996)
+  5. Terminator 2: Judgment Day (1991)
+  6. Demolition Man (1993)
+  7. Barb Wire (1996)
+  8. Timecop (1994)
+  9. Highlander III: The Sorcerer (1994)
+  10. No Escape (1994)
+
+=== New user: 3 ratings (5 stars) for Star Wars (1977); Return of the Jedi (1983); Contact (1997) ===
+Strategy: blend: hybrid + cold-start fallback
+  1. Fargo (1996)
+  2. English Patient, The (1996)
+  3. Liar Liar (1997)
+  4. Scream (1996)
+  5. Air Force One (1997)
+  6. Toy Story (1995)
+  7. Independence Day (ID4) (1996)
+  8. Twelve Monkeys (1995)
+  9. Raiders of the Lost Ark (1981)
+  10. Godfather, The (1972)
